@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JS Slider | By Ammar Rayess</title>
+		<link rel="stylesheet" href="devices.css">
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="mobile-only full-height">
+			<div id="slider_mobile" class="flex-container">
+				<div class="head">
+					<h2>Photo gallery</h2>
+					<p>Swipe to slide</p>
+				</div>
+				<div class="scroller">
+					<ul class="items">
+						<li class="item">
+							<div class="img-wrapper">
+								<img src="https://media.architecturaldigest.com/photos/56d8c76dce4f38152ccc92ff/master/w_640,c_limit/abandoned-places-reclaimed-nature-07.png" />
+							</div>
+							<p class="title">title 1</p>
+							<p class="desc">description</p>
+							<p class="price">289 dhs</p>
+							<a class="btn1" href="#">Buy this item</a>
+						</li>
+						<li class="item">
+							<div class="img-wrapper">
+								<img src="http://images.all-free-download.com/images/graphiclarge/beautiful_nature_landscape_02_hd_picture_166206.jpg" />
+							</div>
+							<p class="title">title 2</p>
+							<p class="desc">description</p>
+							<p class="price">330 dhs</p>
+							<a class="btn1" href="#">Buy this item</a>
+						</li>
+						<li class="item">
+							<div class="img-wrapper">
+								<img src="https://image.freepik.com/free-photo/nature-design-with-bokeh-effect_1048-1882.jpg" />
+							</div>
+							<p class="title">title 3</p>
+							<p class="desc">description</p>
+							<p class="price">500 dhs</p>
+							<a class="btn1" href="#">Buy this item</a>
+						</li>
+					</ul>
+				</div>
+				<div class="controls">
+					<button data-prev-slide>&laquo;</button>
+					<button data-next-slide>&raquo;</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="desktop-only full-height">
+			<div class="svg">
+				<svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+					<defs>
+						<linearGradient id="Gradient1" x1="0" x2="1" y1="0" y2="1">
+							<stop offset="0%" stop-color="#5ae7bd"/>
+							<stop offset="100%" stop-color="#2cd5ce"/>
+						</linearGradient>
+					</defs>
+					<path d="M0,90 C150,25 350,150 500,80 L500,00 L0,0 Z" style="stroke: none; fill:url(#Gradient1);"></path>
+				</svg>
+			</div>
+
+			<div class="wrapper desktop-only">
+				<section class="col col1">
+					<div class="marvel-device iphone8 silver upper-half">
+					    <div class="top-bar"></div>
+					    <div class="sleep"></div>
+					    <div class="volume"></div>
+					    <div class="camera"></div>
+					    <div class="sensor"></div>
+					    <div class="speaker"></div>
+					    <div class="screen">
+					        <!-- Content goes here -->
+					    </div>
+					    <div class="home"></div>
+					    <div class="bottom-bar"></div>
+					</div>
+
+					<div class="desc">
+						<h2>One object focusing</h2>
+						<p>From the begining, we formed the card interface so that the mobile version could fit in one block of information and at the same time would always have access to additional elements.</p>
+					</div>
+
+					<div class="marvel-device iphone8 silver lower-half">
+					    <div class="top-bar"></div>
+					    <div class="sleep"></div>
+					    <div class="volume"></div>
+					    <div class="camera"></div>
+					    <div class="sensor"></div>
+					    <div class="speaker"></div>
+					    <div class="screen"></div>
+					    <div class="home"></div>
+					    <div class="bottom-bar"></div>
+					</div>
+				</section>
+
+				<section class="col col2">
+					<div class="marvel-device iphone8 silver">
+					    <div class="top-bar"></div>
+					    <div class="sleep"></div>
+					    <div class="volume"></div>
+					    <div class="camera"></div>
+					    <div class="sensor"></div>
+					    <div class="speaker"></div>
+					    <div class="screen">
+							<div id="slider_desktop" class="flex-container">
+								<div class="head">
+									<h2>Photo gallery</h2>
+									<p>Swipe to slide</p>
+								</div>
+								<div class="scroller">
+									<ul class="items">
+										<li class="item">
+											<div class="img-wrapper">
+												<img src="https://media.architecturaldigest.com/photos/56d8c76dce4f38152ccc92ff/master/w_640,c_limit/abandoned-places-reclaimed-nature-07.png" />
+											</div>
+											<p class="title">title 1</p>
+											<p class="desc">description</p>
+											<p class="price">289 dhs</p>
+											<a class="btn1" href="#">Buy this item</a>
+										</li>
+										<li class="item">
+											<div class="img-wrapper">
+												<img src="http://images.all-free-download.com/images/graphiclarge/beautiful_nature_landscape_02_hd_picture_166206.jpg" />
+											</div>
+											<p class="title">title 2</p>
+											<p class="desc">description</p>
+											<p class="price">289 dhs</p>
+											<a class="btn1" href="#">Buy this item</a>
+										</li>
+										<li class="item">
+											<div class="img-wrapper">
+												<img src="https://image.freepik.com/free-photo/nature-design-with-bokeh-effect_1048-1882.jpg" />
+											</div>
+											<p class="title">title 3</p>
+											<p class="desc">description</p>
+											<p class="price">289 dhs</p>
+											<a class="btn1" href="#">Buy this item</a>
+										</li>
+									</ul>
+								</div>
+								<div class="controls">
+									<button data-prev-slide>&laquo;</button>
+									<button data-next-slide>&raquo;</button>
+								</div>
+							</div>
+					    </div>
+					    <div class="home"></div>
+					    <div class="bottom-bar"></div>
+					</div>
+
+					<div class="card">
+						<h2>Interface</h2>
+						<p>Intuitive &amp; clear</p>
+					</div>
+				</section>
+
+				<section class="col col3">
+					<div class="marvel-device iphone8 silver">
+					    <div class="top-bar"></div>
+					    <div class="sleep"></div>
+					    <div class="volume"></div>
+					    <div class="camera"></div>
+					    <div class="sensor"></div>
+					    <div class="speaker"></div>
+					    <div class="screen"></div>
+					    <div class="home"></div>
+					    <div class="bottom-bar"></div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="swipe.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
